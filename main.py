@@ -16,8 +16,20 @@ music_concepts = {
 }
 
 # Load songs from JSON file
-with open("songs.json") as f:
-    songs = json.load(f)
+
+songs = {
+    "calming": [
+        "https://youtu.be/gxvpOq8JlPI?t=864",
+        "https://youtu.be/qbzXvzIos4U?t=1725",
+        "https://youtu.be/Llour2YvsiI?t=513"
+    ],
+    "energizing": [
+        "https://www.youtube.com/watch?v=h3DwcJiEuYI&ab_channel=Aimi",
+        "https://youtu.be/tU5gBSrp0C8?t=824",
+        "https://www.youtube.com/watch?v=RZV4oXuTZlA&ab_channel=HeyBearSensory"
+    ]
+}
+
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
