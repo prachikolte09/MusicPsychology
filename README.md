@@ -12,7 +12,7 @@ This project is a FastAPI-based web application for generating customized music 
 
 1. **Clone the Repository**:
     ```
-    git clone https://github.com/your_username/MusicPsychology.git
+    git clone https://github.com/prachikolte09/MusicPsychology.git
     ```
 
 2. **Install Dependencies**:
